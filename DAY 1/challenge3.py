@@ -1,7 +1,6 @@
 import random
 import string
 
-print("Hello, Welcome to the password generator app!")
 length =int(input("\n Please enter what length you'd like your:"))
 
 #Define data
