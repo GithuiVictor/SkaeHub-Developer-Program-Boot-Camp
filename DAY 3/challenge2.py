@@ -1,6 +1,7 @@
 import numpy as np
 
-year = int(input("Please enter the year: "))
+# year = int(input("Please enter the year: "))
+year = input("Please enter the year: ")
 
 month = input("Please input the month: ")
 if month == "January" or "january":
