@@ -8,7 +8,6 @@
 
 import csv
 #opening the file and reading it
-#r opens the file
 with open("departments.csv", 'r') as file:
     #creating an object
     csv_file = csv.DictReader(file)
