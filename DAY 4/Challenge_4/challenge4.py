@@ -1,5 +1,6 @@
 from geopy.geocoders import Nominatim
-geolocator = Nominatim(user_agent = "geoapiExercises")
-location = geolocator.geocode("Mombasa")
 
-print(location)
+geolocator = Nominatim(user_agent = "geoapiExercises")
+country = geolocator.geocode("Mombasa")
+
+print(country)
